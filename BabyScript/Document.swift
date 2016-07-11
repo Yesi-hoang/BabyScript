@@ -14,10 +14,10 @@ class Document: NSDocument {
         super.init()
         // Add your subclass-specific initialization here.
     }
-
-    override class func autosavesInPlace() -> Bool {
-        return true
-    }
+//不自动保存 sb中去掉连接
+//    override class func autosavesInPlace() -> Bool {
+//        return true
+//    }
 
     override func makeWindowControllers() {
         // Returns the Storyboard that contains your Document window.
